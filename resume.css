@@ -9,22 +9,64 @@
     margin-top: 20px;
     margin-left: 30px;
     margin-right: 30px;
+    border-collapse: collapse;
 }
 
 .img {
-    margin-left: 30px;
+    margin-left: 40px;
     border-radius: 90px;
+    height: 147px;
+}
+.imgBorder{
+    border-radius: 5px;
+    /* border-color: teal; */
+    border-style: solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: teal;
+    margin-left: 0px;
 }
 
 .name {
+    font-size: 70px;
     font-weight: 500;
     color: teal;
+}
+.title{
+    background-color:white;
+    border-radius: 5px;
+    /* border-color: teal; */
+    border-style: solid;
+    border-left-color: teal;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-collapse: collapse;
+}
+
+/* mainBox */
+.mainBox{
+    border-collapse: collapse;
+    border-style: solid;
+    border-left-color: teal;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.contentmargin {
+    margin-left: -15px;
 }
 
 .para {
     color: teal;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 27px;
+}
+
+.para::first-letter {
+    margin-left: 5px;
 }
 
 .form {
@@ -37,7 +79,89 @@
     align-items: center;
     margin-top: 5px;
 }
-
+.content{
+    
+}
 .contact {
     margin-top: 5px;
 }
+
+.head {
+    color: teal;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.headborder {
+    border-style: solid;
+    border-color: teal;
+    width: 100%;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.content::first-letter {
+    margin-left: 30px;
+}
+
+.edu {}
+
+.edu .education {
+    font-weight: 400;
+}
+
+.edu .edudetail {
+    margin-top: -10px;
+}
+/* work experience */
+.workContent{
+    font-weight: 800;
+    font-size: 20px;
+}
+.workCompany{
+    margin-left: 0px;
+}
+.skills{
+    margin-left: 0px;
+    font-size: 20px;
+}
+.skillList{
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    text-align: right;
+}
+.skillbar{
+    padding:5px;
+}
+/* Project */
+.projectTitle{
+    font-weight: 400;
+}
+
+/* certification */
+.certificationHead{
+    font-weight: 400;
+}
+
+/* Hobbies */
+.hobimg{
+      margin-top: -4px;
+}
+ /* Declaration */
+ .contentDec{
+    margin-right: 0px;
+ }
+ .contentDec::first-letter{
+     margin-left: 40px;
+ }
+
+ .namesign{
+     text-align: right;
+     margin-left: 530px;
+ }
+ .place{
+     margin-left: 15px;
+ }
