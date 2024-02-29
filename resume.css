@@ -78,13 +78,18 @@ body::-webkit-scrollbar {
 .detailicon {
     align-content: center;
     align-items: center;
-    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+    margin: auto;
+    margin-left: 5px;
 }
 .contact {
     color: #ffffff;
     font-size: 20px;
     letter-spacing: 1.5px;
     font-weight: 400;
+    display: flex;
+    justify-content: space-between;
 }
 
 .head {
@@ -190,4 +195,7 @@ body::-webkit-scrollbar {
     width: 75%;
     display: flex;
     justify-content: space-between;
+}
+.content ul{
+    margin-bottom: .5rem;
 }
