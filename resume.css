@@ -8,6 +8,13 @@ body::-webkit-scrollbar {
   .content{
       font-size: 16px;
       font-weight: 400 ;
+      margin-bottom: 5px;
+  }
+  .content ul{
+    margin-bottom: 5px !important;
+  }
+  .content label{
+    margin-bottom: 0px !important;
   }
 .margin {
     border-collapse: collapse;
@@ -68,7 +75,7 @@ body::-webkit-scrollbar {
 }
 .technical{
     background-color: #eceff1;
-    height: 100vh;
+    height: 3050px;
 }
 .form {
     margin-left: 30px;
@@ -146,6 +153,9 @@ body::-webkit-scrollbar {
     font-weight: 400;
     letter-spacing: 1.5px;
 }
+.projectTitle img{
+    cursor: pointer;
+}
 
 /* certification */
 .certificationHead{
@@ -190,6 +200,11 @@ body::-webkit-scrollbar {
 .certificate a{
     text-decoration: none;
     color: #000000;
+    cursor: pointer;
+}
+.certificate img{
+    width: 20px;
+    cursor: pointer;
 }
 .software-progress-bar{
     width: 75%;
